@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body
+{
+    
+    background: linear-gradient(90deg, rgba(15,32,39,1) 0%, #203a43 38%, #2c5364 100%);
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    
+}
+header, form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+input
+{
+    
+}
+.todo-bnt
+{
+    cursor: pointer;
+    font-size: 36px;
+    color:  #08b308;
+    margin-left: 22px;
+}
+
+.todo-bnt:hover
+{
+    color: #057c05;
+    transition: all ease 0.5s;
+}
+
+.todo-input
+{
+    background: #b0b8bb;
+    border: none;
+    color: #203a43;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.6rem;
+    border-radius: 17px;
+}
+.todo-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #203a43;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 3rem 0 ;
+}
+.task 
+{
+    background: #b0b8bb;
+    padding: 0.6rem;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1% 0;
+    border-radius: 17px;
+    min-height: 60px;
+    
+}
+.crossedTask
+{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(68, 63, 63);
+}
+
+.task span
+{
+    
+}
+.task:hover .icons
+{
+    
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+    align-items: center;
+    
+    
+    
+}
+
+.icons
+{
+    visibility: hidden;
+   
+}
+.icons ion-icon
+{
+    font-size: 32px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.done-ico
+{
+    color: #117e11;
+    background:;
+}
+.unfinish-ico
+{
+    color: #a80c0c;
+}
+.bin-ico
+{
+    color: #353636;
+    
+}
+
